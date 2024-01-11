@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { fontFamily } from "tailwindcss/defaultTheme";
 
 const colors = {
   transparent: "transparent",
@@ -48,6 +49,11 @@ const config: Config = {
   content: ["./src/components/**/*.{js,ts,jsx,tsx,mdx}", "./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     colors,
+    fontFamily: {
+      inter: ["var(--inter)", ...fontFamily.sans],
+      serif: fontFamily.serif,
+      monument: ["var(--monument)", ...fontFamily.sans],
+    },
     fontSize: {
       quote: ["40px", "60px"],
       "5xl": ["56px", "72px"],

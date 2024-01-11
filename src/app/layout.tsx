@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import localFont from "next/font/local";
+import TopNav from "@/components/navigation/header";
+import Footer from "@/components/navigation/footer";
 
 const monument = localFont({
   src: "../../public/fonts/monumentextended-regular.woff",
@@ -23,7 +25,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
     <body
       className={`${inter.variable} ${monument.variable} mx-auto max-w-screen-desktop bg-gray-900 px-4 tablet-sm:px-18`}
     >
+      <TopNav />
       {children}
+      <Footer />
     </body>
   </html>
 );
