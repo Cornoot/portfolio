@@ -28,14 +28,12 @@ const Footer = () => {
         <Title as="h3" size="lg">
           Corné van den Boogert
         </Title>
-        <nav>
-          <ul className="flex items-center gap-x-6">
-            <NavLink href="https://www.linkedin.com/in/corne-van-den-boogert" label="LinkedIn" />
-            <NavLink href="https://www.instagram.com/cornoot/" label="Instagram" />
-            <NavLink href="https://x.com/Cornootje" label="Twitter/X" className="hidden tablet-sm:inline" />
-            <NavLink href="https://x.com/Cornootje" label="X" className="inline tablet-sm:hidden" />
-          </ul>
-        </nav>
+        <ul className="flex items-center gap-x-6">
+          <NavLink href="https://www.linkedin.com/in/corne-van-den-boogert" label="LinkedIn" />
+          <NavLink href="https://www.instagram.com/cornoot/" label="Instagram" />
+          <NavLink href="https://x.com/Cornootje" label="Twitter/X" className="hidden tablet-sm:inline" />
+          <NavLink href="https://x.com/Cornootje" label="X" className="inline tablet-sm:hidden" />
+        </ul>
       </div>
     </footer>
   );
