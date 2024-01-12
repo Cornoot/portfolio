@@ -7,7 +7,7 @@ const CV = () => (
     <Title as="h2" size="4xl" className="mb-6">
       CV
     </Title>
-    <div className="grid grid-cols-1 gap-x-10 tablet-sm:grid-cols-2 tablet-sm:gap-x-6">
+    <div className="grid grid-cols-1 gap-x-6 gap-y-10 tablet-sm:grid-cols-2">
       <CVList title="Work Experience" data={cvData.work} />
       <CVList title="Education" data={cvData.education} />
     </div>

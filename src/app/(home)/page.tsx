@@ -32,7 +32,6 @@ const Home = () => (
     <Title as="h2" size="3xl" className="pt-18">
       Selected work
     </Title>
-    {/* Check with Corné */}
     <div className="mt-8 border-t border-gray-200 pb-18">
       <div className="flex flex-col gap-y-10">
         <div className="flex flex-col items-start gap-[72px] py-4 tablet:flex-row tablet:items-center">
@@ -48,12 +47,15 @@ const Home = () => (
               The tool focus on replacing paper forms in the workplace with a digital tool. Less paper, means more app!
             </Text>
           </div>
-          <Image src="/images/phones.png" alt="Phones" className="h-[434px] w-full rounded-3xl object-cover" />
+          <Image
+            src="/images/phones.png"
+            alt="Phones"
+            className="h-[250px] w-full rounded-3xl object-cover tablet-sm:h-[434px]"
+          />
         </div>
         <CaseStudyGrid />
       </div>
     </div>
-    {/* Check with Corné */}
     <div className="py-18">
       <div className="flex flex-col gap-[72px] border-t border-gray-200 py-10 tablet-sm:flex-row tablet-sm:items-center">
         <div className="flex shrink-0 flex-col items-start tablet-sm:w-[454px]">

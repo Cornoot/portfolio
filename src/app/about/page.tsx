@@ -12,7 +12,6 @@ export const metadata: Metadata = {
 
 const About = () => (
   <main>
-    {/* FIXME: Grid doesn't match container size */}
     <div className="grid grid-cols-1 py-18 tablet-sm:grid-cols-2">
       <div className="flex flex-col items-start gap-y-4">
         <Title as="h1" size="5xl">
@@ -48,7 +47,6 @@ const About = () => (
       </div>
     </div>
     <ImageGrid priority />
-    {/* TODO: Check with Corné */}
     <div className="grid grid-cols-1 gap-20 py-18 tablet:grid-cols-2">
       <div className="text-center tablet-sm:text-left">
         <Quote quote="Make difficult things easy, not easy things difficult" />
