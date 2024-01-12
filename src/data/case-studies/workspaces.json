@@ -1,0 +1,27 @@
+{
+  "title": "Workspaces - Help users quickly switch between different accounts, all in the same app.",
+  "description": "When working internally with our product, or our users with multiple accounts, they wanted a way to quickly see what accounts are logged into their MoreApp accounts. One of the challenges we faced during designing the app was adding “all user accounts” into the new application",
+  "overview": {
+    "title": "MoreApp",
+    "subtitle": "Product Designer, at",
+    "image": {
+      "src": "/images/case-studies/workspaces/overview.png",
+      "alt": "Workspaces"
+    },
+    "meta": [
+      {
+        "title": "Responsibilities",
+        "items": ["Interaction Design", "User Interface Design", "Prototyping", "Design Systems"]
+      },
+      {
+        "title": "Platforms",
+        "color": "blue",
+        "items": ["iOS", "Android", "Web-application"]
+      },
+      {
+        "title": "Duration",
+        "items": ["1 sprint (2 weeks)", "Launched: 4th of July '23", "Complete roll out: 11th '23"]
+      }
+    ]
+  }
+}

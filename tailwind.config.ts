@@ -66,7 +66,7 @@ const config: Config = {
     },
     lineHeight: undefined,
     screens: {
-      mobile: "375px",
+      mobile: "420px",
       "tablet-sm": "744px",
       tablet: "1280px",
       desktop: "1440px",

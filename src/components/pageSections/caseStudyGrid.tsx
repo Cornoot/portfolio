@@ -9,13 +9,13 @@ const CaseStudyGrid = () => (
     />
     <PreviewCard
       title="Switch between workspaces - MoreApp"
-      image="/images/case-studies/workspaces-thumbnail.png"
-      href="/"
+      image="/images/case-studies/workspaces/thumbnail.png"
+      href="/case-studies/workspaces"
     />
     <PreviewCard
       title="Edit your form - MoreApp casestudy"
       image="/images/case-studies/formbuilder-thumbnail.png"
-      href="/case-studies/workspaces"
+      href="/case-studies/form-builder"
     />
   </div>
 );
