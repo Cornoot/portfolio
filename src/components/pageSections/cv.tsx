@@ -43,7 +43,7 @@ const CVListItem = ({ title, subtitle, description }: CVListItemProps) => (
     <Title as="h4" size="lg">
       {title}
     </Title>
-    <Text size="xl" color="gray/100">
+    <Text size="xl" color="gray/100" italic>
       {subtitle}
     </Text>
     <Text>{description}</Text>

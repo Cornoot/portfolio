@@ -8,12 +8,20 @@ type TextProps = {
   size?: TextSize;
   color?: TextColor;
   weight?: TextWeight;
+  italic?: boolean;
   className?: string;
   children: React.ReactNode;
 };
 
-const Text = ({ size = "default", color = "white", weight = "default", className, children }: TextProps) => {
-  const classes = clsx("whitespace-pre-line", textSizes[size], textColors[color], textWeights[weight], className);
+const Text = ({ size = "default", color = "white", weight = "default", italic, className, children }: TextProps) => {
+  const classes = clsx(
+    "whitespace-pre-line",
+    textSizes[size],
+    textColors[color],
+    textWeights[weight],
+    italic && "italic",
+    className,
+  );
 
   return <p className={classes}>{children}</p>;
 };
