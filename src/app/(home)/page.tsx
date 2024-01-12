@@ -22,7 +22,7 @@ const Home = () => (
       </div>
       <div className="my-auto h-[370px] tablet-sm:h-[585px] tablet-sm:w-[426px]">
         <Image
-          src="/images/corné.jpg"
+          src="/images/personal/corné.jpg"
           alt="Corné van den Boogert"
           priority
           className="h-full w-full rounded-lg object-cover"
