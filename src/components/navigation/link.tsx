@@ -14,7 +14,8 @@ const Link = ({ variant, label, showIcon, href }: LinkProps) => {
     {
       "text-gray-900 bg-blue-500 hover:bg-blue-600 active:text-white active:bg-blue-900": variant === "primary",
       "text-gray-700 bg-white hover:bg-gray-100 active:text-white active:bg-blue-900": variant === "secondary",
-      "text-white bg-transparent border-2 border-white hover:border-gray-300 active:bg-blue-900": variant === "ghost",
+      "text-white bg-transparent border-2 border-white hover:border-gray-300 active:bg-blue-900 active:border-blue-900":
+        variant === "ghost",
     },
   );
 
