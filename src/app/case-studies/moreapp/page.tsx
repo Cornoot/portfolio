@@ -19,12 +19,10 @@ const MoreAppCaseStudy = () => (
         <Title as="h1" size="3xl" className="tablet-sm:text-4xl">
           {data.title}
         </Title>
-        <Text size="2xl" weight="medium" color="gray/100" className="max-w-[648px]">
+        <Text size="2xl" weight="medium" color="gray/100">
           {data.description}
         </Text>
-        <Text color="gray/100" className="max-w-[648px]">
-          {data.description}
-        </Text>
+        <Text color="gray/100">{data.description}</Text>
       </div>
       <OverviewCard
         title={data.overview.title}
