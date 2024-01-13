@@ -4,7 +4,7 @@ const CaseStudyGrid = () => (
   <div className="grid grid-cols-1 gap-6 tablet-sm:grid-cols-2 tablet:grid-cols-3">
     <PreviewCard
       title="Design system chaos - Start at MoreApp"
-      image="/images/case-studies/moreapp-thumbnail.png"
+      image="/images/case-studies/moreapp/thumbnail.png"
       href="/case-studies/moreapp"
     />
     <PreviewCard

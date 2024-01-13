@@ -10,7 +10,7 @@ type TextNextToImageProps = {
 };
 
 const TextNextToImage = ({ title, description, image, alt }: TextNextToImageProps) => (
-  <div className="grid grid-cols-1 gap-6 tablet:grid-cols-2">
+  <div className="grid grid-cols-1 gap-x-[134px] gap-y-6 tablet:grid-cols-2">
     <div className="flex flex-col items-start justify-center gap-y-1">
       <Title as="h3" size="lg">
         {title}

@@ -1,7 +1,7 @@
 import clsx from "clsx";
 
 type TextSize = "2xl" | "xl" | "default";
-type TextColor = "white" | "gray/100" | "gray/200" | "gray/300" | "blue/300";
+type TextColor = "white" | "gray/50" | "gray/100" | "gray/200" | "gray/300" | "blue/300";
 type TextWeight = "default" | "medium";
 
 type TextProps = {
@@ -36,6 +36,7 @@ const textSizes: Record<TextSize, string> = {
 
 const textColors: Record<TextColor, string> = {
   white: "text-white",
+  "gray/50": "text-gray-50",
   "gray/100": "text-gray-100",
   "gray/200": "text-gray-200",
   "gray/300": "text-gray-300",

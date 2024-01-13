@@ -5,14 +5,14 @@
     "title": "MoreApp",
     "subtitle": "Product Designer, at",
     "image": {
-      "src": "/images/case-studies/workspaces/overview.png",
+      "src": "/images/case-studies/moreapp/phones.png",
       "alt": "Workspaces",
-      "className": "h-[250px] w-full object-contain mobile:h-[410px] tablet-sm:h-[528px] tablet:h-[720px]"
+      "className": "h-[250px] w-full object-contain mobile:h-[400px] tablet-sm:h-[583px] tablet:h-[628px]"
     },
     "meta": [
       {
         "title": "Responsibilities",
-        "items": ["Interaction Design", "User Interface Design", "Prototyping", "Design Systems"]
+        "items": ["Interaction Design", "User Interface Design", "Design System", "Stakeholder Management"]
       },
       {
         "title": "Platforms",
@@ -21,7 +21,7 @@
       },
       {
         "title": "Duration",
-        "items": ["1 sprint (2 weeks)", "Launched: 4th of July '23", "Complete roll out: 11th '23"]
+        "items": ["12 till 15 months.", "Launched: 4th of July '23", "Complete roll out: 11th '23"]
       }
     ]
   }

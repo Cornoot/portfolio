@@ -1,19 +1,14 @@
-"use client";
-
 import clsx from "clsx";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 type NavLinkProps = {
   label: string;
   href: string;
+  active?: boolean;
   className?: string;
 };
 
-const NavLink = ({ label, href, className }: NavLinkProps) => {
-  const pathname = usePathname();
-  const active = pathname.includes(href);
-
+const NavLink = ({ label, href, active, className }: NavLinkProps) => {
   const classes = clsx(
     "font-monument",
     active ? "text-blue-500" : "text-white hover:text-gray-200 active:text-gray-400",

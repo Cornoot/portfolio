@@ -48,7 +48,7 @@ const Home = () => (
             </Text>
           </div>
           <Image
-            src="/images/phones.png"
+            src="/images/case-studies/moreapp/phones.png"
             alt="Phones"
             className="h-[250px] w-full rounded-3xl object-cover tablet-sm:h-[434px]"
           />

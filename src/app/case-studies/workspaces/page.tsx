@@ -23,15 +23,7 @@ const WorkspacesCaseStudy = () => (
           {data.description}
         </Text>
       </div>
-      <OverviewCard
-        title={data.overview.title}
-        subtitle={data.overview.subtitle}
-        image={{
-          ...data.overview.image,
-          className: "h-[250px] w-full object-contain mobile:h-[410px] tablet-sm:h-[528px] tablet:h-[720px]",
-        }}
-        meta={data.overview.meta as OverviewCardProps["meta"]}
-      />
+      <OverviewCard {...(data.overview as OverviewCardProps)} />
     </div>
     <div className="mx-auto flex max-w-[856px] flex-col gap-y-10 py-18">
       <div>
