@@ -40,7 +40,7 @@ const OverviewCard = ({ title, subtitle, image, meta }: OverviewCardProps) => (
 
 const MetaList = ({ title, items, color }: { title: string; color?: "blue" | "gray"; items: string[] }) => (
   <div key={title}>
-    <Title as="h3" size="lg" className="mb-2">
+    <Title as="h3" size="2xl" className="mb-2">
       {title}
     </Title>
     <ul className={color === "blue" ? "text-blue-300" : "text-gray-100"}>

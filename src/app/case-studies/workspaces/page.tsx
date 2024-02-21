@@ -88,17 +88,17 @@ const WorkspacesCaseStudy = () => (
         <Text color="gray/200">Starting out with the list item quickly transformed into the drawer.</Text>
       </div>
       <Image
-        src="/images/case-studies/workspaces/iteration-1.png"
+        src="/images/case-studies/workspaces/iteration-1.webp"
         className="h-[250px] w-full object-cover mobile:h-[450px] tablet:h-[610px]"
         alt="Iterating on context menu's and drawers"
       />
       <Image
-        src="/images/case-studies/workspaces/iteration-2.png"
+        src="/images/case-studies/workspaces/iteration-2.webp"
         className="h-[250px] w-full object-cover object-right mobile:h-[450px] tablet-sm:h-[530px] tablet:h-[610px]"
         alt="Iterating on profile squared within the drawer"
       />
       <Image
-        src="/images/case-studies/workspaces/iteration-3.png"
+        src="/images/case-studies/workspaces/iteration-3.webp"
         className="h-[250px] w-full object-cover mobile:h-[450px] tablet-sm:h-[547px] tablet:h-[624px]"
         alt="Iterating on selecting a workspace within the drawer"
       />
@@ -115,7 +115,7 @@ const WorkspacesCaseStudy = () => (
         </Text>
       </div>
       <Image
-        src="/images/case-studies/workspaces/flow-notifications.png"
+        src="/images/case-studies/workspaces/flow-notifications.webp"
         className="h-full w-full"
         alt="Flowchart notifications"
       />
@@ -124,7 +124,7 @@ const WorkspacesCaseStudy = () => (
         endpoint should be that they can open the form in the right workspace when opening the notification.
       </Text>
       <Image
-        src="/images/case-studies/workspaces/flowchart-notifications.png"
+        src="/images/case-studies/workspaces/flowchart-notifications.webp"
         className="h-full w-full"
         alt="Push notification flow"
       />

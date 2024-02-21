@@ -1,11 +1,11 @@
 {
-  "title": "Workspaces - Help users quickly switch between different accounts, all in the same app.",
-  "description": "When working internally with our product, or our users with multiple accounts, they wanted a way to quickly see what accounts are logged into their MoreApp accounts. One of the challenges we faced during designing the app was adding “all user accounts” into the new application",
+  "title": "MoreApp - Sending Digital Forms",
+  "description": "The tool focus on replacing paper forms in the workplace with a digital tool.\nMoreApp, the application, is a tool for employee to fill in forms on their job. These forms can be inspection forms, HR forms, declaration forms. You name it, you can fill it in with that app!",
   "overview": {
     "title": "MoreApp",
     "subtitle": "Product Designer, at",
     "image": {
-      "src": "/images/case-studies/moreapp/phones.png",
+      "src": "/images/case-studies/moreapp/phones.webp",
       "alt": "Workspaces",
       "className": "h-[250px] w-full object-contain mobile:h-[400px] tablet-sm:h-[583px] tablet:h-[628px]"
     },

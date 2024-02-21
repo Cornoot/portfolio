@@ -21,7 +21,7 @@ const TopNav = () => {
           <ul className="flex gap-x-6">
             <NavLink href="/" label="Work" active={pathname.includes("case-studies")} />
             <NavLink href="/about" label="About Me" active={pathname.includes("about")} />
-            <NavLink href="#contact" label="Contact" />
+            <NavLink href="#contact" label="Contact" asAnchor />
           </ul>
         </nav>
       </div>

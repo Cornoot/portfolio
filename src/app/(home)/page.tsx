@@ -22,7 +22,7 @@ const Home = () => (
       </div>
       <div className="my-auto h-[370px] tablet-sm:h-[585px] tablet-sm:w-[426px]">
         <Image
-          src="/images/personal/corné.jpg"
+          src="/images/personal/corné.webp"
           alt="Corné van den Boogert"
           priority
           className="h-full w-full rounded-lg object-cover"
@@ -48,7 +48,7 @@ const Home = () => (
             </Text>
           </div>
           <Image
-            src="/images/case-studies/moreapp/phones.png"
+            src="/images/case-studies/moreapp/phones.webp"
             alt="Phones"
             className="h-[250px] w-full rounded-3xl object-cover tablet-sm:h-[434px]"
           />
@@ -68,7 +68,7 @@ const Home = () => (
           </Text>
           <Link variant="secondary" label="Read More" href="/" showIcon />
         </div>
-        <Image src="/images/weather-app.png" alt="Weather App" className="h-[434px] w-full rounded-3xl object-cover" />
+        <Image src="/images/weather-app.webp" alt="Weather App" className="h-[434px] w-full rounded-3xl object-cover" />
       </div>
     </div>
   </main>

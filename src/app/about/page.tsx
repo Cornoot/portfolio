@@ -95,21 +95,21 @@ const About = () => (
         title="Illustrate, everything"
         description="During the everyday humdrum of live I love to sit down, put on some nice relaxing progressive metal and just enjoy the moment with my pencil.
             I mostly draw cats, as you guessed it, I love cats. I also tend to try out different things, as long as it intrigues my own interest and ✨ sparks joy ✨"
-        image="/images/personal/drawing.png"
-        alt="A part of my lego collection"
+        image="/images/personal/drawing.webp"
+        alt="A nice drawing I made"
       />
       <TextNextToImage
         title="Need more fuzz with your fuzz?"
         description="Playing bass in a band from then Hague is really awesome. Especially adding more fuzz to one single bass
             line then your fuzzy wall can comprehend. Are you fan of any type of rock, alt-rock or just loud-rock? I've got you covered"
-        image="/images/personal/with-band.png"
+        image="/images/personal/with-band.webp"
         alt="Group picture with my band"
       />
       <TextNextToImage
         title="Lego my ego"
         description="Playing bass in a band from then Hague is really awesome. Especially adding more fuzz to one single bass
             line then your fuzzy wall can comprehend. Are you fan of any type of rock, alt-rock or just loud-rock? I've got you covered"
-        image="/images/personal/lego.jpg"
+        image="/images/personal/lego.webp"
         alt="A part of my lego collection"
       />
     </div>

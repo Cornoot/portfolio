@@ -13,9 +13,24 @@ const ImageGrid = ({ priority }: ImageGridProps) => {
 
   return (
     <div className="flex flex-col gap-6 pb-18 pt-10 tablet:flex-row">
-      <Image src="/images/personal/with-brother.png" alt="" priority={priority} className={firstImageClasses} />
-      <Image src="/images/personal/with-band-concert.png" alt="" priority={priority} className={secondImageClasses} />
-      <Image src="/images/personal/sweden.jpg" alt="" priority={priority} className={thirdImageClasses} />
+      <Image
+        src="/images/personal/with-brother.webp"
+        alt="Me and my twin brother"
+        priority={priority}
+        className={firstImageClasses}
+      />
+      <Image
+        src="/images/personal/with-band-concert.webp"
+        alt="Performing with my band, Crashing Bats"
+        priority={priority}
+        className={secondImageClasses}
+      />
+      <Image
+        src="/images/personal/iceland.webp"
+        alt="Trip to Iceland"
+        priority={priority}
+        className={thirdImageClasses}
+      />
     </div>
   );
 };

@@ -4,17 +4,17 @@ const CaseStudyGrid = () => (
   <div className="grid grid-cols-1 gap-6 tablet-sm:grid-cols-2 tablet:grid-cols-3">
     <PreviewCard
       title="Design system chaos - Start at MoreApp"
-      image="/images/case-studies/moreapp/thumbnail.png"
+      image="/images/case-studies/moreapp/thumbnail.webp"
       href="/case-studies/moreapp"
     />
     <PreviewCard
       title="Switch between workspaces - MoreApp"
-      image="/images/case-studies/workspaces/thumbnail.png"
+      image="/images/case-studies/workspaces/thumbnail.webp"
       href="/case-studies/workspaces"
     />
     <PreviewCard
       title="Edit your form - MoreApp casestudy"
-      image="/images/case-studies/formbuilder-thumbnail.png"
+      image="/images/case-studies/formbuilder-thumbnail.webp"
       href="/case-studies/form-builder"
     />
   </div>

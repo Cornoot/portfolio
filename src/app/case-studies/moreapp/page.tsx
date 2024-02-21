@@ -19,10 +19,9 @@ const MoreAppCaseStudy = () => (
         <Title as="h1" size="3xl" className="tablet-sm:text-4xl">
           {data.title}
         </Title>
-        <Text size="2xl" weight="medium" color="gray/100">
+        <Text size="2xl" color="gray/100">
           {data.description}
         </Text>
-        <Text color="gray/100">{data.description}</Text>
       </div>
       <OverviewCard
         title={data.overview.title}
@@ -67,7 +66,7 @@ const MoreAppCaseStudy = () => (
         </Text>
       </div>
       <Image
-        src="/images/case-studies/moreapp/old-app.png"
+        src="/images/case-studies/moreapp/old-app.webp"
         alt="Overview of the old MoreApp application"
         className="h-[400px] w-full max-w-[1004px] object-cover tablet-sm:h-[555px]"
       />
@@ -115,7 +114,7 @@ const MoreAppCaseStudy = () => (
       </div>
       <div className="flex h-full min-w-full flex-col items-center rounded-lg bg-gray-700 tablet-sm:max-h-[400px] tablet:max-h-[424px]">
         <Image
-          src="/images/case-studies/moreapp/wcag-color-contrast.png"
+          src="/images/case-studies/moreapp/wcag-color-contrast.webp"
           alt="How we use the wcag guidelines to make our application accessible"
           className="h-full w-full object-cover"
         />
@@ -137,7 +136,7 @@ const MoreAppCaseStudy = () => (
         </Text>
       </div>
       <Image
-        src="/images/case-studies/moreapp/button-component.png"
+        src="/images/case-studies/moreapp/button-component.webp"
         alt="Our button component in Figma which meets the wcag guidelines"
         className="h-[250px] w-full object-cover tablet-sm:h-[400px] tablet:h-[424px]"
       />
@@ -161,7 +160,7 @@ const MoreAppCaseStudy = () => (
       </div>
       <div className="h-[250px] min-w-full rounded-lg bg-gray-700 tablet-sm:h-[424px]">
         <Image
-          src="/images/case-studies/moreapp/mobile-nav.png"
+          src="/images/case-studies/moreapp/mobile-nav.webp"
           alt="The mobile navigation of the new MoreApp application"
           className="h-full w-full object-contain"
         />
@@ -185,7 +184,7 @@ const MoreAppCaseStudy = () => (
         </Text>
       </div>
       <Image
-        src="/images/case-studies/moreapp/app-desktop.png"
+        src="/images/case-studies/moreapp/app-desktop.webp"
         alt="The desktop navigation of the new MoreApp application"
         className="h-full w-full rounded-lg"
       />
@@ -205,7 +204,7 @@ const MoreAppCaseStudy = () => (
       </div>
       <div className="h-[250px] min-w-full rounded-lg bg-gray-700 mobile:h-[400px] tablet-sm:h-[769px]">
         <Image
-          src="/images/case-studies/moreapp/workspaces.png"
+          src="/images/case-studies/moreapp/workspaces.webp"
           alt="The desktop navigation of the new MoreApp application"
           className="h-full w-full rounded-lg object-contain"
         />
@@ -236,7 +235,7 @@ const MoreAppCaseStudy = () => (
         <div>
           <div className="mb-6 flex justify-center bg-gray-700 pt-12">
             <Image
-              src="/images/case-studies/moreapp/old-app-single.png"
+              src="/images/case-studies/moreapp/old-app-single.webp"
               alt="The desktop navigation of the new MoreApp application"
               className="h-[490px] w-[270px] object-contain"
             />
@@ -251,7 +250,7 @@ const MoreAppCaseStudy = () => (
         <div>
           <div className="mb-6 flex justify-center bg-gray-400 pt-10">
             <Image
-              src="/images/case-studies/moreapp/new-app-single.png"
+              src="/images/case-studies/moreapp/new-app-single.webp"
               alt="The desktop navigation of the new MoreApp application"
               className="h-[500px] w-[232px] object-contain"
             />
@@ -269,14 +268,14 @@ const MoreAppCaseStudy = () => (
       </div>
     </div>
     <div className="mx-auto flex flex-col gap-y-11 py-18">
-      <Image src="/images/case-studies/moreapp/phones.png" alt="" className="max-h-[624px] w-full object-contain" />
+      <Image src="/images/case-studies/moreapp/phones.webp" alt="" className="max-h-[624px] w-full object-contain" />
       <Image
-        src="/images/case-studies/moreapp/apps-overview.png"
+        src="/images/case-studies/moreapp/apps-overview.webp"
         alt=""
         className="max-h-[624px] w-full object-contain"
       />
       <Image
-        src="/images/case-studies/moreapp/phones-tilted.png"
+        src="/images/case-studies/moreapp/phones-tilted.webp"
         alt=""
         className="max-h-[700px] w-full object-contain"
       />
@@ -295,7 +294,7 @@ const MoreAppCaseStudy = () => (
         <Text weight="medium">• Michel, customer MoreApp</Text>
       </div>
       <div className="h-[250px] w-[205px] shrink-0 mobile:h-[417px] mobile:w-[383px]">
-        <Image src="/images/case-studies/moreapp/sent-form.png" alt="" className="h-full w-full" />
+        <Image src="/images/case-studies/moreapp/sent-form.webp" alt="" className="h-full w-full" />
       </div>
     </div>
     <div className="mx-auto max-w-[856px] py-18">

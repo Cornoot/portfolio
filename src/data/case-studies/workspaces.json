@@ -5,7 +5,7 @@
     "title": "MoreApp",
     "subtitle": "Product Designer, at",
     "image": {
-      "src": "/images/case-studies/workspaces/overview.png",
+      "src": "/images/case-studies/workspaces/overview.webp",
       "alt": "Workspaces",
       "className": "h-[250px] w-full object-contain mobile:h-[410px] tablet-sm:h-[528px] tablet:h-[720px]"
     },
