@@ -1,12 +1,13 @@
 import clsx from "clsx";
 
+type TitleTag = "h1" | "h2" | "h3" | "h4";
 type TitleSize = "5xl" | "4xl" | "3xl" | "2xl" | "xl" | "lg" | "default";
 type TitleWeight = "normal" | "bold";
 type TitleFont = "monument" | "inter";
 type TitleColor = "white" | "gray/50";
 
 export type TitleProps = {
-  as: "h1" | "h2" | "h3" | "h4";
+  as: TitleTag;
   size?: TitleSize;
   color?: TitleColor;
   weight?: TitleWeight;
@@ -26,7 +27,7 @@ const Title = ({
 }: TitleProps) => {
   const Tag = as;
   const classes = clsx(
-    "break-words font-monument",
+    "break-words",
     titleSizes[size],
     titleColors[color],
     titleWeights[weight],

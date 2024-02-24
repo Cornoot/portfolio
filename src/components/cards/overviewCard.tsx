@@ -5,7 +5,7 @@ import Title from "../typography/title";
 export type OverviewCardProps = {
   title: string;
   subtitle: string;
-  image: {
+  image?: {
     src: string;
     alt: string;
     className?: string;
@@ -19,9 +19,11 @@ export type OverviewCardProps = {
 
 const OverviewCard = ({ title, subtitle, image, meta }: OverviewCardProps) => (
   <div className="flex w-full flex-col gap-y-6 rounded-3xl bg-gray-800 px-10 pb-10 pt-6">
-    <div className="flex justify-center">
-      <Image src={image.src} alt={image.alt} priority className={image.className} />
-    </div>
+    {image && (
+      <div className="flex justify-center">
+        <Image src={image.src} alt={image.alt} priority className={image.className} />
+      </div>
+    )}
     <div className="flex flex-col gap-6 pb-6 pr-6 tablet:flex-row">
       <div>
         <Text className="mb-1">{subtitle}</Text>
