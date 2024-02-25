@@ -18,6 +18,12 @@ export const metadata: Metadata = {
   },
   description:
     "Product designer, I love to solve problems with (bad) humour. I strive to solve complex problems to enable others to work efficiently. Get to know me and hear everything about my work and cats.",
+  icons: {
+    icon: "/favicon.ico?v=4",
+    apple: "/apple-touch-icon.png?v=4",
+    shortcut: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
