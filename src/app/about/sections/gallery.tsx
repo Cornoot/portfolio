@@ -1,7 +1,7 @@
 import Image from "@/components/image";
 
 const Gallery = () => (
-  <div className="flex flex-col gap-6 pb-18 pt-10 tablet:flex-row">
+  <section id="gallery" className="flex flex-col gap-6 pb-18 pt-10 tablet:flex-row">
     <Image
       src="/images/personal/with-brother.webp"
       alt="Me and my twin brother"
@@ -20,7 +20,7 @@ const Gallery = () => (
       priority
       className="h-[411px] w-full shrink-0 rounded-2xl object-cover object-right tablet:w-[416px] tablet:rounded-l-none tablet:rounded-r-3xl"
     />
-  </div>
+  </section>
 );
 
 export default Gallery;

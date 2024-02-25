@@ -1,10 +1,10 @@
-import OverviewCard from "@/components/cards/overviewCard";
+import CaseStudyOverviewCard from "@/components/overviewCard";
 import Link from "@/components/navigation/link";
 import Text from "@/components/typography/text";
 import Title from "@/components/typography/title";
 
 const Hero = () => (
-  <div className="flex flex-col items-start gap-y-8 py-12 tablet-sm:py-18">
+  <section id="hero" className="flex flex-col items-start gap-y-8 py-12 tablet-sm:py-18">
     <Link variant="ghost" label="Back to projects" href="/" />
     <div>
       <Title as="h1" size="3xl" className="mb-2 tablet-sm:text-4xl">
@@ -18,7 +18,7 @@ const Hero = () => (
         integrations baked into the experience. This could only mean one thing: scope creep.
       </Text>
     </div>
-    <OverviewCard
+    <CaseStudyOverviewCard
       title="MoreApp"
       subtitle="Product Designer, at"
       meta={[
@@ -27,7 +27,7 @@ const Hero = () => (
         { title: "Duration", items: ["3 months"] },
       ]}
     />
-  </div>
+  </section>
 );
 
 export default Hero;

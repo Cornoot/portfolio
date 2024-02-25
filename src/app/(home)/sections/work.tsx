@@ -17,7 +17,7 @@ const caseStudies = [
   {
     title: "Edit your form - MoreApp case study",
     image: "/images/case-studies/formbuilder-thumbnail.webp",
-    href: "/case-studies/form-builder",
+    href: "/case-studies/ux-research",
   },
 ];
 

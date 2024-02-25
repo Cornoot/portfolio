@@ -41,7 +41,7 @@ const data = {
 };
 
 const CV = () => (
-  <div className="py-18">
+  <section id="cv" className="py-18">
     <Title as="h2" size="4xl" className="mb-6">
       CV
     </Title>
@@ -49,7 +49,7 @@ const CV = () => (
       <CVSection title="Work Experience" data={data.work} />
       <CVSection title="Education" data={data.education} />
     </div>
-  </div>
+  </section>
 );
 
 type CVSectionProps = { title: string; data: CVItemProps[] };
